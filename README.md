@@ -13,9 +13,9 @@ ZNGEA：ZINB-NMF intergated Graph Embedding Autoencoder for metabolite-disease a
 ##### Dataset
 
 - **Statistics**
-    -Metabolites：2262
-    -Diseases: 216
-    -Validated metabolite-disease assiciations: 4536
+    - Metabolites：2262
+    - Diseases: 216
+    - Validated metabolite-disease assiciations: 4536
 
 ##### File Introduction:
 
@@ -47,15 +47,15 @@ ZNGEA：ZINB-NMF intergated Graph Embedding Autoencoder for metabolite-disease a
 3. Run the `main.py` file to start the model training and prediction.
 
 ##### Hyperparameter settings
-- epochs_ZINB               60
-- nhid1                     512
-- nhid2                     64
-- epoch_Decoder             10000
-- dropout                   0.2              
-- lr_ZINB                   0.0001
-- weight_decay              5e-4
-- decoder_dropout           0.4
-- decoder_lr                0.0001
+- epochs_ZINB = 60
+- nhid1 = 512
+- nhid2 = 64
+- epoch_Decoder = 10000
+- dropout = 0.2              
+- lr_ZINB = 0.0001
+- weight_decay = 5e-4
+- decoder_dropout = 0.4
+- decoder_lr = 0.0001
 
 
 
