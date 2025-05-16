@@ -43,8 +43,15 @@ ZNGEA：ZINB-NMF intergated Graph Embedding Autoencoder for metabolite-disease a
 ##### Running for ZNGEA
 
 1. Unzip `m_fusion_sim.zip` and `metabolites_structure_similarity.zip` files.
-2. Set up the environment based on the provided configuration.
-3. Run the `main.py` file to start the model training and prediction.
+2. Configure the runtime environment required for the code based on the package versions below.
+- numpy                     1.23.5
+- pandas                    2.2.2
+- python                    3.9.19
+- scipy                     1.13.1
+- torch                     2.2.1+cu121              
+- scikit-learn              1.5.1
+3. The entire model, from similarity fusion to feature extraction, as well as model training and prediction, can be performed by running the `main.py` file. When the `main.py` file finishes running, the prediction results will be output.
+
 
 ##### Hyperparameter settings
 - epochs_ZINB = 60
